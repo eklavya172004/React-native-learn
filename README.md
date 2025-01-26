@@ -17,8 +17,8 @@ This repository contains the source code for a mobile application built using Re
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/react-native-repo.git
-   cd react-native-repo
+   git clone https://github.com/username/React-native-learn.git
+   cd React-native-learn
    ```
 
 2. **Install Dependencies**:
