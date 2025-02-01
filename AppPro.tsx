@@ -2,6 +2,8 @@ import React from "react";
 import {View,Text, useColorScheme, StyleSheet, SafeAreaView, ScrollView} from 'react-native'
 import { JSXSource } from "react/jsx-dev-runtime";
 import Flatcard from "./components/Flatcard";
+import ElevatedCards from "./components/ElevatedCards";
+import FancyCard from "./components/FancyCard";
 
 function AppPro(): JSX.Element{
     // const isDarkmode = useColorScheme() === 'dark'
@@ -9,9 +11,13 @@ function AppPro(): JSX.Element{
     return(
         <SafeAreaView>
             <ScrollView >
-                <Text>
+                {/* <Text> */}
                     <Flatcard/>
-                </Text>
+                {/* </Text> */}
+                      <ElevatedCards/>
+                        <FancyCard/>
+                        <FancyCard/>
+                        <FancyCard/>
             </ScrollView>
         </SafeAreaView>
     )

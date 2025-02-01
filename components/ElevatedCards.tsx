@@ -50,13 +50,23 @@ const styles = StyleSheet.create({
         width:100,
         height:100,
         borderRadius:4,
-        // margin:8,
+        margin:4,
+        // marginRight:10,
         justifyContent: 'center',
         alignItems: 'center',
         flex:1,
       },
       cardelevated:{
-         backgroundColor:'blue'
+         backgroundColor:'blue',
+         elevation:4,
+         shadowOffset:{
+             width:0,
+             height:2,
+         },
+         shadowColor:'white',
+         shadowOpacity:0.2,
+         shadowRadius:2,
+         padding:10,
       },
       container:{
         padding:8,

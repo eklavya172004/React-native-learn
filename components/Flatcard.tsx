@@ -29,9 +29,9 @@ const Flatcard = () => {
             <Text style={{color:'white'}}>
               Red
             </Text>
-          </View>          
+          </View>  
+                              {/* <FancyCard/>         */}
         </View>
-        <ElevatedCards/>
     </View>
   )
 }
